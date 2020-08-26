@@ -1,0 +1,19 @@
+{
+  "name": "treads-node-redis",
+  "version": "1.0.0",
+  "description": "User registration and sending confirmation email as a task in the background using Node.js and redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro47/treads-node-redis.git"
+  },
+  "author": "Leandro Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandro47/treads-node-redis/issues"
+  },
+  "homepage": "https://github.com/leandro47/treads-node-redis#readme"
+}
