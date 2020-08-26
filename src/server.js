@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import express from  'express';
 
-import UserController from '.app/controllers/UserController';
+import UserController from './app/controllers/UserController';
 
 const app = express();
 
