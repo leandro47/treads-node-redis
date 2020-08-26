@@ -4,7 +4,7 @@
   "description": "User registration and sending confirmation email as a task in the background using Node.js and redis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,18 @@
   },
   "author": "Leandro Silva",
   "license": "ISC",
+ 
   "bugs": {
     "url": "https://github.com/leandro47/treads-node-redis/issues"
   },
-  "homepage": "https://github.com/leandro47/treads-node-redis#readme"
+  "homepage": "https://github.com/leandro47/treads-node-redis#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  }
 }
