@@ -20,8 +20,6 @@ export default {
             console.log(err)
         }
       
-        
-
         return res.json(user);
     }
 }
